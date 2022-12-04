@@ -5,6 +5,7 @@
 
 		<link rel="stylesheet" href="css/jquery.carousel.css" media="all" />
 		<link rel="stylesheet" href="css/application.css" media="all" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 		<script src="js/jquery.carousel.js"></script>
 		<script src="js/application.js"></script>
 	</head>
@@ -14,6 +15,7 @@
 
 			<table id="nav-bar">
 				<tr>
+					<!-- UPDATE SELECTED CLASSES -->
 					<td class="selected">
 						<a href="/">
 							Home
@@ -51,19 +53,19 @@
 					<div class="carousel">
 						<div class="previews">
 							<div class="preview">
-								<img src="/images/buildings.jpeg" />
+								<img src="images/buildings.jpeg" />
 							</div>
 							<div class="preview">
-								<img src="/images/calculations.jpeg" />
+								<img src="images/calculations.jpeg" />
 							</div>
 							<div class="preview">
-								<img src="/images/coinsclock.jpeg" />
+								<img src="images/coinsclock.jpeg" />
 							</div>
 							<div class="preview">
-								<img src="/images/pen.jpeg" />
+								<img src="images/pen.jpeg" />
 							</div>
 							<div class="preview">
-								<img src="/images/piggybank.jpeg" />
+								<img src="images/piggybank.jpeg" />
 							</div>
 							<!-- 
 Carousel Credits: http://ksylvest.github.io/jquery-carousel/
@@ -107,9 +109,50 @@ Image Credits:
 			<div class="clear"></div>
 
 			<div id="page-content">
+				<!-- START NON-TEMPLATE CODE -->
 
-				<%= yield %>
+				<div id="home-left">
+					<h1>Welcome</h1>
 
+					<h3>
+						We are dedicated to help you with all of your financial needs.
+					</h3>
+
+					<p>
+						Welcome and thank you for visiting our Website. In addition to providing you with a profile of our firm and the services we provide, this Website has been designed to become a helpful resource tool to you, our valued clients and visitors. Our dedication to superior client service has brought us to the Internet as we endeavor to continue to provide the highest quality professional service and guidance.
+					</p>
+					<p>
+						While browsing through our Website, please feel free to contact us with any questions or comments you may have – we’d love to hear from you. We pride ourselves on being proactive and responsive to our clients’ inquiries and suggestions.
+					</p>
+				</div>
+
+				<div id="home-right">
+					<div id="home-services">
+						<h2>Services</h2>
+
+						<ul>
+							<li>Tax</li>
+							<li>Payroll</li>
+							<li>Advisory</li>
+							<li>Notary Public</li>
+							<li>Wills &amp; Trusts</li>
+							<li>Bookkeeping</li>
+							<li>Cash Management</li>
+						</ul>
+					</div>
+
+					<div id="home-contact">
+						<h2>Contact</h2>
+
+						<p>Phone: (562) 403-1040</p>
+						<p>Fax: (562) 299-5555</p>
+						<p>
+							Email: <a href="mailto:contact@hnkaccounting.com">contact@hnkaccounting.com</a>
+						</p>
+					</div>
+				</div>
+
+				<!-- END NON-TEMPLATE CODE -->
 			</div>
 
 			<div class="clear"></div>
