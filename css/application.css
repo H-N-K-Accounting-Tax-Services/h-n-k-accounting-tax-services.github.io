@@ -1,0 +1,258 @@
+/* Main Layout */
+* {
+	font: normal normal 14px/1.4em 'Open Sans', sans-serif;
+}
+
+body {
+	margin: 0px;
+}
+
+#main-content {
+	width: 1000px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.messages {
+	margin: 0 auto;
+	text-align: center;
+	color: red;
+}
+
+table#nav-bar {
+	width: 100%;
+	table-layout: fixed;
+}
+
+table#nav-bar td {
+	text-align: center;
+	padding: 20px;
+	font-weight: bold;
+}
+
+table#nav-bar a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #245C6C;
+}
+
+table#nav-bar a:hover {
+	color: #9C0A0A;
+}
+
+table#nav-bar .selected a {
+	color: #CC0A0A;
+}
+
+#banner {
+	width: 100%;
+	height: 267px;
+}
+
+#banner > div:nth-child(1) {
+	width: 60%;
+	background-color: #E7E7E7;
+	height: 267px;
+	float: left;
+}
+
+#banner > div:nth-child(1) > h1 {
+	text-align: center;
+	color: #546C7C;
+	font-weight: bold;
+	font-size: 35px;
+	margin-top: 90px;
+	margin-bottom: 5px;
+}
+
+#banner > div:nth-child(1) > p {
+	text-align: center;
+	font-size: 16px;
+	margin: 5px;
+}
+
+#banner div:nth-child(2) {
+	width: 400px;
+	height: 267px;
+	float: right;
+}
+
+.carousel {
+	width: 400px;
+}
+
+.carousel .controls {
+	position: absolute;
+	top: 0; 
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.clear {
+	clear: both;
+	height: 75px;
+	width: 100%;
+}
+
+#footer {
+	height: 20px;
+	padding: 20px 50px;
+	background-color: #E7E7E7;
+}
+#footer p {
+	width: 1000px;
+	margin: auto;
+}
+/* End Main Layout */
+
+
+
+
+/* Page Content */
+#page-content {
+	width: 95%;
+	margin: auto;
+}
+
+#page-content h1 {
+	color: #CC0A0A;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+#page-content h3 {
+	color: #CC0A0A;
+	font-size: 18px;
+}
+
+#page-content p {
+	padding-top: 5px;
+}
+/* End Page Content */
+
+
+
+
+/* Home Page */
+#home-left {
+	float: left;
+	width: 70%;
+}
+
+#home-right {
+	float: right;
+	width: 25%;
+}
+
+#home-services {
+	background-color: #F0F0F0;
+	padding: 10px 30px;
+}
+
+#home-right h2 {
+	color: #CC0A0A;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#home-services li {
+	margin: 10px 0px;
+}
+
+#home-contact {
+	padding: 10px 0px 0px 30px;
+}
+
+#home-contact p, #home-contact a {
+	margin: 0px;
+	font-size: 12.5px;
+	color: black;
+}
+/* End Home Page */
+
+
+
+
+/* About Page */
+#about-left {
+	float: left;
+	width: 60%;
+}
+
+#about-right {
+	float: right;
+	width: 35%;
+}
+
+#about-left a {
+	color: black;
+}
+/* End About Page */
+
+
+
+
+/* Services Page */
+table#services {
+	table-layout: fixed;
+	width: 100%;
+}
+
+table#services h1 {
+	font-weight: normal;
+}
+
+table#services td {
+	vertical-align: top;
+}
+
+table#services li {
+	margin: 0px;
+}
+
+table#services td #schedule {
+    background-color: #CC0A0A;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+}
+/* End Services Page */
+
+
+
+
+/* Resources Page */
+.resources {
+	font-size: 16px;
+}
+
+.resources a {
+	color: black;
+	font-size: 16px;
+}
+/* End Resources Page */
+
+
+
+
+/* Contact Page */
+#contact {
+	padding: 50px;
+}
+
+#contact h2 {
+	color: #546C7C;
+	font-size: 16px;
+}
+
+#contact a {
+	color: black;
+}
+/* End Contact Page */
