@@ -211,7 +211,7 @@ table#services li {
 	margin: 0px;
 }
 
-table#services a#schedule {
+table#services td #schedule {
     background-color: #CC0A0A;
     border: none;
     border-radius: 5px;
